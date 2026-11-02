@@ -1,0 +1,30 @@
+-muwx
+-i D:\tools\GUI\output\gui.ihx
+-M
+-I 0x0100
+-X 0x2000
+-C 0x10000
+-b HOME = 0x0000
+-b XSEG = 0x0001
+-b PSEG = 0x0001
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k C:\Users\Y5043\.eide\tools\sdcc\bin\..\lib\large
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+main.rel
+Bsp/Timer.rel
+Bsp/Key.rel
+Bsp/LcdHal.rel
+GUI/GUI.rel
+GUI/Font.rel
+GUI/FontAscii.rel
+GUI/FontCN.rel
+App/Menu.rel
+App/MenuRes.rel
+App/App.rel
+
+-e
